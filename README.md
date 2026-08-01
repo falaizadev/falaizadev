@@ -1,202 +1,169 @@
 <!-- ========================= -->
-<!--         BANNER            -->
+<!--      PROFILE README       -->
 <!-- ========================= -->
 
-<h1 align="center">Hi 👋, I'm AL-kun</h1>
+<div align="center">
 
-<h3 align="center">
-💻 Full Stack Web Developer • 🎮 Game Developer • 🎨 UI/UX Designer
-</h3>
+# Hi 👋, I'm AL-kun
 
-<p align="center">
-Building modern websites, applications, and games through <b>Pixel Forge</b>.
-</p>
+### Full Stack Developer • UI/UX Designer • Game Developer
 
-<p align="center">
+Building digital products through **Pixel Forge**.
+
+<p>
 <a href="https://github.com/USERNAME">
-<img src="https://komarev.com/ghpvc/?username=USERNAME&label=Profile+Views&color=0e75b6&style=flat"/>
+<img src="https://komarev.com/ghpvc/?username=USERNAME&label=Profile+Views&color=3b82f6&style=flat-square"/>
 </a>
 </p>
 
----
-
-# 👨‍💻 About Me
-
-```javascript
-const alkun = {
-    name: "AL-kun",
-    age: 16,
-    country: "Indonesia 🇮🇩",
-
-    company: "Pixel Forge",
-
-    learning: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "Laravel",
-        "React",
-        "Flutter",
-        "C#",
-        "Roblox Development"
-    ],
-
-    goals: [
-        "Become Full Stack Developer",
-        "Build SaaS",
-        "Create Roblox Games",
-        "Start Technology Company"
-    ]
-}
-```
+</div>
 
 ---
 
-# 🚀 Tech Stack
+## 👋 About
 
-### Frontend
+I'm a developer from Indonesia who enjoys building modern web applications, designing clean user interfaces, and experimenting with game development.
+
+Most of my time is spent learning, creating personal projects, and improving my development workflow.
+
+Currently, I'm building **Pixel Forge**, a digital studio focused on websites, applications, and creative digital products.
+
+---
+
+## 🚀 What I'm Working On
+
+- 🌐 Pixel Forge Website
+- 📱 Flutter Applications
+- ⚙ Laravel Backend
+- 🎮 Roblox Studio
+- 🎨 UI/UX Design System
+
+---
+
+## 🛠 Tech Stack
+
+### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,react,vite"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,php,cs,dart"/>
 </p>
 
-### Backend
+### Frameworks
 
 <p>
-<img src="https://skillicons.dev/icons?i=php,laravel,nodejs,mysql"/>
+<img src="https://skillicons.dev/icons?i=laravel,flutter,tailwind"/>
 </p>
 
-### Mobile
+### Database
 
 <p>
-<img src="https://skillicons.dev/icons?i=flutter,dart"/>
-</p>
-
-### Programming
-
-<p>
-<img src="https://skillicons.dev/icons?i=cs,java,python"/>
+<img src="https://skillicons.dev/icons?i=mysql"/>
 </p>
 
 ### Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,photoshop,blender"/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,photoshop"/>
 </p>
 
 ---
 
-# 📊 GitHub Stats
+## 📌 Featured Projects
 
-<p align="center">
+### 🌐 Pixel Forge
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight"/>
+Website untuk jasa pembuatan website dan aplikasi.
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight"/>
-
-</p>
+> Laravel • Tailwind CSS
 
 ---
 
-# 🔥 GitHub Streak
+### 📱 Notes App
 
-<p align="center">
+Aplikasi pencatatan sederhana menggunakan Flutter.
 
-<img src="https://streak-stats.demolab.com?user=USERNAME&theme=tokyonight"/>
-
-</p>
+> Flutter • Dart
 
 ---
 
-# 📈 Contribution Graph
+### 📋 School Attendance
 
-<p align="center">
+Sistem absensi sekolah berbasis Laravel.
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&theme=tokyo-night"/>
-
-</p>
+> Laravel • MySQL
 
 ---
 
-# 🛠 Current Focus
+### 🎮 Roblox Project
 
-- 🌐 Full Stack Web Development
-- 📱 Flutter App Development
-- 🎮 Roblox Game Development
-- 🎨 UI/UX Design
-- 🚀 Building Pixel Forge
+Sedang mengembangkan game Roblox dengan Lua.
 
 ---
 
-# 📚 Currently Learning
+## 📈 GitHub Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=transparent&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=transparent&hide_border=true"/>
+
+</div>
+
+---
+
+## 🔥 GitHub Streak
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=USERNAME&theme=transparent&hide_border=true"/>
+
+</div>
+
+---
+
+## 📚 Currently Learning
 
 - Laravel
-- React
+- REST API
 - Flutter
 - C#
-- Roblox Studio
-- REST API
 - Clean Architecture
+- React
 
 ---
 
-# 🎯 2026 Goals
+## 🎯 2026 Roadmap
 
-- ✅ Build Portfolio Website
-- ✅ Launch Pixel Forge
-- ✅ Build SaaS Project
-- ✅ Publish Roblox Game
-- ✅ Learn Flutter
-- ✅ Learn React
-- ✅ Learn Backend Development
+- [ ] Build Pixel Forge Website
+- [ ] Launch Portfolio
+- [ ] Complete Laravel Project
+- [ ] Publish Flutter App
+- [ ] Publish Roblox Game
+- [ ] Learn React
 
 ---
 
-# 🌐 Connect With Me
+## 🌎 Connect
 
 <p>
 
-<a href="https://github.com/USERNAME">
-GitHub
-</a>
+<a href="https://yourportfolio.com">Portfolio</a> •
 
-|
+<a href="https://linkedin.com/in/username">LinkedIn</a> •
 
-<a href="https://linkedin.com/in/USERNAME">
-LinkedIn
-</a>
+<a href="https://instagram.com/username">Instagram</a> •
 
-|
-
-<a href="https://instagram.com/USERNAME">
-Instagram
-</a>
-
-|
-
-<a href="https://tiktok.com/@USERNAME">
-TikTok
-</a>
-
-|
-
-<a href="mailto:EMAIL">
-Email
-</a>
-
-|
-
-<a href="https://pixelforge.my.id">
-Portfolio
-</a>
+<a href="mailto:email@gmail.com">Email</a>
 
 </p>
 
 ---
 
-<p align="center">
+<div align="center">
 
-⭐ Thanks for visiting my profile ⭐
+> *"Great software is built through consistency, curiosity, and continuous learning."*
 
-</p>
+⭐ Thanks for stopping by!
+
+</div>
