@@ -1,12 +1,10 @@
-name: Update README Activity
+name: Test Workflow
 
-on:
-  workflow_dispatch:
+on: [push]
 
 jobs:
-  hello:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Hello
-        run: echo "Workflow berhasil!"
+      - run: echo "Hello GitHub Actions!"
