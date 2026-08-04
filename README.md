@@ -12,7 +12,7 @@ Most of the repositories here are personal projects where I learn, experiment, a
 
 Tech Stack
 
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,react,flutter,mysql,git,github,vscode,figma"/>
 </p>---
 
