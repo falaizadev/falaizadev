@@ -1,10 +1,16 @@
-<div align="center">Hi, I'm AL 👋
+<div align="center">
 
-Building Pixel Forge.
+# Hi, I'm AL 👋
 
-<img src="https://komarev.com/ghpvc/?username=falaizadev&label=Views&style=flat-square" /></div>---
+Building **Pixel Forge**.
 
-About
+<img src="https://komarev.com/ghpvc/?username=falaizadev&label=Views&style=flat-square"/>
+
+</div>
+
+---
+
+## About
 
 I build websites, apps, and occasionally games.
 
@@ -12,25 +18,25 @@ Most of the repositories here are personal projects where I learn, experiment, a
 
 ---
 
-Tech Stack
+## Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,react,flutter,mysql,git,github,vscode,figma" />
-</p>---
+<img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,react,flutter,mysql,git,github,vscode,figma"/>
+</p>
 
-GitHub Stats
+---
+
+## GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats-falaizadev1.vercel.app/api?username=falaizadev&show_icons=true&theme=transparent&hide_border=true&v=1" />
-</p><p align="center">
-<img src="https://github-readme-stats-falaizadev1.vercel.app/api/top-langs/?username=falaizadev&layout=compact&theme=transparent&hide_border=true&v=1" />
-</p><p align="center">
-<img src="https://streak-stats.demolab.com?user=falaizadev&theme=transparent&hide_border=true" />
-</p><p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=falaizadev&theme=github-dark&hide_border=true" />
-</p>---
 
-Featured
+<img src="https://github-readme-stats-falaizadev1.vercel.app/api?username=falaizadev"/>
+
+</p>
+
+---
+
+## Featured
 
 - 🚀 Pixel Forge
 - 🌐 Portfolio Website
@@ -39,7 +45,7 @@ Featured
 
 ---
 
-Contact
+## Contact
 
 <a href="https://github.com/falaizadev">GitHub</a> •
 <a href="https://instagram.com/USERNAME">Instagram</a> •
