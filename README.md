@@ -27,7 +27,7 @@ Most of the repositories here are personal projects where I learn, experiment, a
 ## GitHub Stats
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=falaizadev&show_icons=true&theme=transparent&hide_border=true"/>
+<img height="170" src="github-readme-stats-nine-wheat-14.vercel.app&show_icons=true&theme=transparent&hide_border=true"/>
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falaizadev&layout=compact&theme=transparent&hide_border=true"/>
 </p>
