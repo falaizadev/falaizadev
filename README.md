@@ -1,33 +1,26 @@
-# hey, i'm al.
+# 👋 Hi, I'm AL
 
-i build web applications and occasionally make games.
+Building **Pixel Forge**.
 
-currently working on **Pixel Forge**.
+### Tech
 
----
-
-### stack
-
-html • css • javascript • php • laravel • mysql
-
----
-
-### projects
-
-📦 Pixel Forge
-
-website and application studio.
-
-📦 School Attendance
-
-attendance system built with laravel.
-
-📦 Roblox Adventure
-
-currently in development.
-
----
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&theme=transparent">
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,mysql,git,figma,vscode"/>
 </p>
+
+### Stats
+
+<p>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&theme=transparent"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&theme=transparent"/>
+</p>
+
+### Projects
+
+- 🌐 Pixel Forge
+- 📱 Flutter Notes
+- 🎮 Roblox Project
+
+### Contact
+
+GitHub • Instagram • Email
