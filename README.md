@@ -31,7 +31,7 @@ Most of the repositories here are personal projects where I learn, experiment, a
 <p align="center">
 <img src="https://github-readme-stats-falaizadev1.vercel.app/api?username=falaizadev"/>
 </p>
-</p>
+
 
 ---
 
