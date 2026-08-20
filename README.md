@@ -47,5 +47,5 @@ Most of the repositories here are personal projects where I learn, experiment, a
 ## Contact
 
 <a href="https://github.com/falaizadev">GitHub</a> •
-<a href="https://instagram.com/USERNAME">Instagram</a> •
-<a href="mailto:EMAIL@gmail.com">Email</a>
+<a href="https://www.instagram.com/izal.lxd?igsh=YnFxbXdsNzZ5dnpi">Instagram</a> •
+<a href="mailto:faizal.ramadhan.dwi@gmail.com">Email</a>
