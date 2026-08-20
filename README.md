@@ -1,8 +1,7 @@
 <div align="center">
 
-# Hi, I'm AL 👋
+# Hi, I'm Falaiza 👋
 
-Building **Pixel Forge**.
 
 <img src="https://komarev.com/ghpvc/?username=falaizadev&label=Views&style=flat-square"/>
 
