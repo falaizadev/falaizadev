@@ -1,50 +1,56 @@
 <div align="center">
 
-# Hi, I'm Falaiza 👋
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:2d3748&height=180&section=header&text=ARDELYO&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20|%20AI%20Enthusiast&descAlignY=55&descAlign=50)
 
-
-<img src="https://komarev.com/ghpvc/?username=falaizadev&label=Views&style=flat-square"/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=94A3B8&center=true&vCenter=true&width=400&lines=16+y.o+Developer+from+Indonesia;Building+Digital+Solutions)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## About
+### 👋 About Me
 
-I build websites, apps, and occasionally games.
-
-Most of the repositories here are personal projects where I learn, experiment, and improve over time.
-
----
-
-## Tech Stack
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,flutter,mysql,git,github,vscode,figma"/>
-</p>
+```yaml
+name: Ardelyo
+location: Bandung, Indonesia 🇮🇩
+status: High School Student & Full-Stack Developer
+focus: Web Development, AI/ML, Python
+```
 
 ---
 
-## GitHub Stats
+### 🛠️ Tech Stack
 
-<p align="center">
-<img src="https://github-readme-stats-falaizadev1.vercel.app/api?username=falaizadev"/>
-</p>
+<div align="center">
 
+**Frontend** &nbsp; `React` `Next.js` `TypeScript` `Tailwind CSS`
 
----
+**Backend** &nbsp; `Node.js` `Express` `Python` `FastAPI`
 
-## Featured
+**Database** &nbsp; `MongoDB` `PostgreSQL` `Firebase`
 
-- 🚀 Pixel Forge
-- 🌐 Portfolio Website
-- 📱 Flutter Notes
-- 🎮 Roblox Project
+**Tools** &nbsp; `Git` `VS Code` `Docker` `Figma`
+
+</div>
 
 ---
 
-## Contact
+### 📫 Connect
 
-<a href="https://github.com/falaizadev">GitHub</a> •
-<a href="https://www.instagram.com/izal.lxd?igsh=YnFxbXdsNzZ5dnpi">Instagram</a> •
-<a href="mailto:faizal.ramadhan.dwi@gmail.com">Email</a>
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tahubulatlio12@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=safari&logoColor=white)](https://ardelyo.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ardelyo)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=ardelyo&color=64748b&style=flat-square&label=Profile+Views"/>
+
+*"Code is like humor. When you have to explain it, it's bad."*
+
+</div>
