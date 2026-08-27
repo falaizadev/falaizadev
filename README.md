@@ -13,7 +13,7 @@
 ```yaml
 name: Faizal
 location: Tangerang, Indonesia 🇮🇩
-status: High School Student & Full-Stack Developer
+status: High School Student & Member Imphnen
 focus: App Development, Robotics 
 ```
 
