@@ -14,7 +14,7 @@
 name: Faizal
 location: Tangerang, Indonesia 🇮🇩
 status: High School Student & Full-Stack Developer
-focus: Web Development, App Development, Game, 
+focus: Web Development, App Development 
 ```
 
 ---
