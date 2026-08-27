@@ -49,7 +49,7 @@ focus: Web Development, App Development, Game,
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=ardelyo&color=64748b&style=flat-square&label=Profile+Views"/>
+<img src="https://komarev.com/ghpvc/?username=falaizadev&label=Profile%20Views&color=3b82f6&style=flat-square"/>
 
 *"Code is like humor. When you have to explain it, it's bad."*
 
