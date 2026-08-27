@@ -11,10 +11,10 @@
 ### 👋 About Me
 
 ```yaml
-name: Ardelyo
-location: Bandung, Indonesia 🇮🇩
+name: Faizal
+location: Tangerang, Indonesia 🇮🇩
 status: High School Student & Full-Stack Developer
-focus: Web Development, AI/ML, Python
+focus: Web Development, App Development, Game, 
 ```
 
 ---
