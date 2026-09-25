@@ -23,13 +23,13 @@ focus: App Development, Robotics
 
 <div align="center">
 
-**Frontend** &nbsp; `React` `Next.js` `TypeScript` `Tailwind CSS`
+**Frontend** &nbsp; `XML` `JetpackCompose` `` `Tailwind CSS`
 
-**Backend** &nbsp; `Node.js` `Express` `Python` `FastAPI`
+**Backend** &nbsp; `SpringBoot` `.NET` `Python` `FastAPI`
 
 **Database** &nbsp; `MongoDB` `PostgreSQL` `Firebase`
 
-**Tools** &nbsp; `Git` `VS Code` `Docker` `Figma`
+**Tools** &nbsp; `Git` `VS Code` `Docker` `Figma` `VScommunity`
 
 </div>
 
