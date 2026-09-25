@@ -23,7 +23,7 @@ focus: App Development, Robotics
 
 <div align="center">
 
-**Frontend** &nbsp; `XML` `JetpackCompose` `` `Tailwind CSS`
+**Frontend** &nbsp; `XML` `JetpackCompose` `ReactNative` 
 
 **Backend** &nbsp; `SpringBoot` `.NET` `Python` `FastAPI`
 
