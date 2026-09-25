@@ -14,7 +14,7 @@
 name: Faizal
 location: Tangerang, Indonesia 🇮🇩
 status: High School Student & Member Imphnen
-focus: App Development, Robotics 
+focus: App Development, Desktop Development 
 ```
 
 ---
