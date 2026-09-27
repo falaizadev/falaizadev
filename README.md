@@ -21,8 +21,9 @@ focus: App Development, Desktop Development
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3ZyNHZycXN0ZG9zY2l5aWFnczZ4MGVocWppZXE2ZHRqMjJpOXl5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ALOwurQ9EwDZxQRhjO/giphy.gif" width="380">
 </div>
 
+
 <div align="center">
-  <img src ="https://media3.giphy.com/media/49q4mkk8alKgsPUO2u/giphy.gif?cid=790b7611a567b63125c1cead806c5ed90e9c8d1daeb47263&ep=v1_user_favorites&rid=giphy.gif&ct=g" width="400">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGF2amtlcmsyeWFuNDhrYnh1YzBnY3oxbm84empuYXB4cGQ2aTlwOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/49q4mkk8alKgsPUO2u/giphy.gif" width="380">
 </div>
 ---
 
@@ -42,9 +43,6 @@ focus: App Development, Desktop Development
 
 ---
 
-<div align="center">
-  <img src ="https://media3.giphy.com/media/49q4mkk8alKgsPUO2u/giphy.gif?cid=790b7611a567b63125c1cead806c5ed90e9c8d1daeb47263&ep=v1_user_favorites&rid=giphy.gif&ct=g" width="400">
-</div>
 ### 📫 Connect
 
 <div align="center">
