@@ -26,9 +26,6 @@ focus: App Development, Desktop Development
   <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451"  width="200">
 </div>
 
-<div align="right">
-  <img src="https://github.com/user-attachments/assets/42561bab-876b-45db-a3d9-216178c2c727" height='380" width="380">
-</div>
 
 ---
 
@@ -48,6 +45,9 @@ focus: App Development, Desktop Development
 
 ---
 
+<div align="right">
+  <img src="https://github.com/user-attachments/assets/42561bab-876b-45db-a3d9-216178c2c727" width="200">
+</div>
 ### 📫 Connect
 
 <div align="center">
