@@ -42,6 +42,9 @@ focus: App Development, Desktop Development
 
 ---
 
+<div align="center">
+  <img src ="https://media.giphy.com/media/49q4mkk8alKgsPUO2u/giphy.gif" width="400">
+</div>
 ### 📫 Connect
 
 <div align="center">
