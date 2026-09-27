@@ -62,8 +62,16 @@ focus: App Development, Desktop Development
 ---
 ![Pacman Contribution Graph](contributeGraph.svg)
 <p align="center">
-  <img src="https://githubusercontent.com" alt="Pacman Contribution Graph">
+  <picture>
+    <!-- Menampilkan tema gelap otomatis jika menggunakan Dark Mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://githubusercontent.com">
+    <!-- Menampilkan tema terang otomatis jika menggunakan Light Mode -->
+    <source media="(prefers-color-scheme: light)" srcset="https://githubusercontent.com">
+    <!-- Gambar cadangan standar -->
+    <img alt="Pacman Contribution Graph" src="https://githubusercontent.com">
+  </picture>
 </p>
+
 
 
 
