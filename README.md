@@ -18,7 +18,7 @@ focus: App Development, Desktop Development
 ```
 
 <div align="center">
-  <img src="https://giphy.com/gifs/roxy-migurdia-sylphiette-ALOwurQ9EwDZxQRhjO" width="380">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3ZyNHZycXN0ZG9zY2l5aWFnczZ4MGVocWppZXE2ZHRqMjJpOXl5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ALOwurQ9EwDZxQRhjO/giphy.gif" width="380">
 </div>
 ---
 
