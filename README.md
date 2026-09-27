@@ -60,6 +60,7 @@ focus: App Development, Desktop Development
 </div>
 
 ---
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://githubusercontent.com">
