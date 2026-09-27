@@ -60,7 +60,6 @@ focus: App Development, Desktop Development
 </div>
 
 ---
-![Pacman Contribution Graph](contributeGraph.svg)
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://githubusercontent.com">
@@ -68,6 +67,7 @@ focus: App Development, Desktop Development
     <img alt="Pacman Contribution Graph" src="https://githubusercontent.com">
   </picture>
 </p>
+
 
 
 
