@@ -62,8 +62,13 @@ focus: App Development, Desktop Development
 ---
 ![Pacman Contribution Graph](contributeGraph.svg)
 <p align="center">
-  <img src="https://githubusercontent.com" alt="Pacman Contribution Graph">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://githubusercontent.com">
+    <source media="(prefers-color-scheme: light)" srcset="https://githubusercontent.com">
+    <img alt="Pacman Contribution Graph" src="https://githubusercontent.com">
+  </picture>
 </p>
+
 
 
 
