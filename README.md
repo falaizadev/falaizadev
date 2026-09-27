@@ -17,6 +17,9 @@ status: High School Student & Member Imphnen
 focus: App Development, Desktop Development 
 ```
 
+<div align="center">
+  <img src="https://giphy.com/gifs/roxy-migurdia-sylphiette-ALOwurQ9EwDZxQRhjO" width="380">
+</div>
 ---
 
 ### 🛠️ Tech Stack
