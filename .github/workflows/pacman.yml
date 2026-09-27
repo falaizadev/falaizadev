@@ -12,16 +12,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Menggunakan konfigurasi parameter token yang benar agar repo privat terbaca
       - name: Generate Pacman Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: falaizadev
           github_token: ${{ secrets.GH_TOKEN }}
+          # Mengunci permainan ke Pacman saja dan memaksa tema gelap agar serasi
+          games: '["pacman"]'
+          player_style: '["pacman"]'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      # Mengunggah hasil gambar SVG yang akurat ke cabang 'output'
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
