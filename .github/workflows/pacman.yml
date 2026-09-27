@@ -17,9 +17,8 @@ jobs:
         with:
           github_user_name: falaizadev
           github_token: ${{ secrets.GH_TOKEN }}
-          # Mengunci permainan ke Pacman saja dan memaksa tema gelap agar serasi
-          games: '["pacman"]'
-          player_style: '["pacman"]'
+          # Perbaikan: Tulis nama game langsung tanpa kurung siku atau tanda petik ganda
+          games: pacman
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
