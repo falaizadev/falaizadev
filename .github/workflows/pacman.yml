@@ -11,9 +11,18 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      
-      # Menggunakan versi master/main terbaru yang pasti tersedia
+
+      # Menggunakan branch main yang benar
       - name: Generate Pacman Graph
-        uses: abozanona/pacman-contribution-graph@master
+        uses: abozanona/pacman-contribution-graph@main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # Melakukan commit dan push otomatis file SVG yang baru terbuat
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add pacman.svg
+          git commit -m "Update Pacman Contribution Graph" || exit 0
+          git push
