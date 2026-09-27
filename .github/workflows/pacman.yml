@@ -11,10 +11,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          # Memaksa checkout menggunakan token Anda, bukan token bawaan robot
-          token: ${{ secrets.GH_TOKEN }}
 
+      # Langkah Resmi 1: Membuat SVG Pacman dan menyimpannya di folder build sementara
       - name: Generate Pacman Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
@@ -22,11 +20,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      # Melakukan push menggunakan otentikasi token rahasia Anda
-      - name: Commit and Push Changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add pacman.svg
-          git commit -m "Update Pacman Contribution Graph" || exit 0
-          git push
+      # Langkah Resmi 2: Mengunggah file SVG ke cabang terpisah bernama 'output' menggunakan Token Anda
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
