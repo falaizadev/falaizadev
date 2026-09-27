@@ -23,7 +23,7 @@ focus: App Development, Desktop Development
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451" height="380" width="380">
+  <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451" height="380" width="200">
 </div>
 
 <div align="right">
