@@ -22,7 +22,7 @@ focus: App Development, Desktop Development
 </div>
 
 <div align="center">
-  <img src ="https://imgur.com/a/ch3a18w" width="400">
+  <img src ="https://imgur.com/a/ch3a18w](https://giphy.com/gifs/49q4mkk8alKgsPUO2u" width="400">
 </div>
 ---
 
