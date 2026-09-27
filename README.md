@@ -44,13 +44,13 @@ focus: App Development, Desktop Development
 ---
 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/b0b0d0c1-ddd5-44c1-a5e7-a688a3fff795"  width="200">
+  <img src="https://github.com/user-attachments/assets/b0b0d0c1-ddd5-44c1-a5e7-a688a3fff795"  width="380">
 </div>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451"  width="200">
+  <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451"  width="380">
 </div>
 <div align="right">
-  <img src="https://github.com/user-attachments/assets/42561bab-876b-45db-a3d9-216178c2c727" width="200">
+  <img src="https://github.com/user-attachments/assets/42561bab-876b-45db-a3d9-216178c2c727" width="380">
 </div>
 ### 📫 Connect
 
