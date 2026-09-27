@@ -42,6 +42,10 @@ focus: App Development, Desktop Development
 </div>
 
 ---
+
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/b0b0d0c1-ddd5-44c1-a5e7-a688a3fff795"  width="200">
+</div>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451"  width="200">
 </div>
