@@ -69,14 +69,6 @@ focus: App Development, Desktop Development
   </picture>
 </p>
 
-
-
-
-
-
-
-
-
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=falaizadev&label=Profile%20Views&color=3b82f6&style=flat-square"/>
