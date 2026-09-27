@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+# MEMBERIKAN IZIN UTAMA AGAR ROBOT BISA MELAKUKAN PUSH
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +16,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Menggunakan input parameter yang valid dan benar sesuai log
       - name: Generate Pacman Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
@@ -20,7 +23,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      # Melakukan commit dan push otomatis file SVG yang baru terbuat
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
