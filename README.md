@@ -60,6 +60,7 @@ focus: App Development, Desktop Development
 </div>
 
 ---
+![Pacman Contribution Graph](contributeGraph.svg)
 
 <div align="center">
 
