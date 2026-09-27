@@ -62,7 +62,7 @@ focus: App Development, Desktop Development
 ---
 
 <p align="center">
-  <img src="https://vercel.app" alt="Pacman Contribution Graph">
+  <img src="contributeGraph.svg" alt="Pacman Contribution Graph">
 </p>
 
 
