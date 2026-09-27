@@ -63,14 +63,15 @@ focus: App Development, Desktop Development
 ![Pacman Contribution Graph](contributeGraph.svg)
 <p align="center">
   <picture>
-    <!-- Otomatis menampilkan tema GELAP jika pengunjung pakai Dark Mode -->
+    <!-- Menampilkan tema GELAP jika laptop/HP pengunjung pakai Dark Mode -->
     <source media="(prefers-color-scheme: dark)" srcset="https://githubusercontent.com">
-    <!-- Otomatis menampilkan tema TERANG jika pengunjung pakai Light Mode -->
+    <!-- Menampilkan tema TERANG jika laptop/HP pengunjung pakai Light Mode -->
     <source media="(prefers-color-scheme: light)" srcset="https://githubusercontent.com">
-    <!-- Gambar cadangan jika browser tidak mendukung tag picture -->
+    <!-- Gambar cadangan standar -->
     <img alt="Pacman Contribution Graph" src="https://githubusercontent.com">
   </picture>
 </p>
+
 
 
 
