@@ -5,16 +5,15 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-# MEMBERIKAN IZIN UTAMA AGAR ROBOT BISA MELAKUKAN PUSH
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          # Memaksa checkout menggunakan token Anda, bukan token bawaan robot
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Generate Pacman Graph
         uses: abozanona/pacman-contribution-graph@main
@@ -23,6 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
+      # Melakukan push menggunakan otentikasi token rahasia Anda
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
