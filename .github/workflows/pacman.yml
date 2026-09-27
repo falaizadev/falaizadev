@@ -12,11 +12,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Menggunakan konfigurasi username yang wajib diisi
+      # Menggunakan input parameter yang valid dan benar sesuai log
       - name: Generate Pacman Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          username: falaizadev
+          github_user_name: falaizadev
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
