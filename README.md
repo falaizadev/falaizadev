@@ -60,13 +60,7 @@ focus: App Development, Desktop Development
 </div>
 
 ---
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zeealwaysselalu&theme=tokyo-night">
-</p>
-<p align="center">
-  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=Zeealwaysselalu"/>
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Zeealwaysselalu&theme=tokyonight"/>
-</p>
+
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=falaizadev&label=Profile%20Views&color=3b82f6&style=flat-square"/>
