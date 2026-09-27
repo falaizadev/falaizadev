@@ -1,19 +1,19 @@
 name: Generate Pacman Graph
 
 on:
-  # Otomatis berjalan setiap hari jam 12 malam
   schedule:
     - cron: "0 0 * * *"
-  # Memungkinkan Anda menjalankan manual kapan saja
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
       
-      # Menggunakan Action resmi Pacman Graph
-      - uses: abozanona/pacman-contribution-graph@v1.0.0
+      # Menggunakan versi master/main terbaru yang pasti tersedia
+      - name: Generate Pacman Graph
+        uses: abozanona/pacman-contribution-graph@master
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
