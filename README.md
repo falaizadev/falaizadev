@@ -65,6 +65,9 @@ focus: App Development, Desktop Development
 
 
 
+<p align="center">
+  <img src="contributeGraph.svg" alt="Pacman Contribution Graph">
+</p>
 
 
 
