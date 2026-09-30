@@ -66,7 +66,10 @@ focus: App Development, Desktop Development
 ![Uploading image.png…]()
 
 
-
+<div>
+  <a href="contributeGraph.svg">
+  
+</div>
 
 
 
