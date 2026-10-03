@@ -67,7 +67,6 @@ focus: App Development, Desktop Development
 
 <div>
   <a href="contributeGraph.svg">
-  
 </div>
 
 
