@@ -35,7 +35,7 @@ focus: App Development, Desktop Development
 
 **Backend** &nbsp; `SpringBoot` `.NET` `Python` `FastAPI`
 
-**Database** &nbsp; `MongoDB` `PostgreSQL` `Firebase`
+**Database** &nbsp; `MYSQL` `PostgreSQL` `API/RES`
 
 **Tools** &nbsp; `Git` `VS Code` `Docker` `Figma` `VScommunity`
 
