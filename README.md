@@ -37,9 +37,15 @@
 
 ---
 
-### 🛠️ Tech Stack
+<p align="center">
+  <img
+    src="./profile-techstack.svg"
+    width="100%"
+    alt="Tech Stack - Faizal Dwi Ramadhan"
+  />
+</p>
 
-<div align="center">
+<!--<div align="center">
 
 **Frontend** &nbsp; `XML` `JetpackCompose` `ReactNative` 
 
@@ -50,7 +56,7 @@
 **Tools** &nbsp; `Git` `VS Code` `Docker` `Figma` `VScommunity`
 
 </div>
-
+-->
 ---
 
 <div align="center">
@@ -58,7 +64,7 @@
   <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451" height="250">
   <img src="https://github.com/user-attachments/assets/42561bab-876b-45db-a3d9-216178c2c727" height="250">
 </div>
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="36" height="36" alt="Animated code icon" /> My Statistics
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="36" height="36" alt="Animated code icon" /> My Statistics
 
 <table>
 <tr>
