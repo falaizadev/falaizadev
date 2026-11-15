@@ -18,19 +18,19 @@
 
 ---
 
-### 👋 About Me
+<p align="center">
+  <img
+    src="./profile-aboutme.svg"
+    width="100%"
+    alt="About Me - Faizal Dwi Ramadhan"
+  />
+</p>
 
-```yaml
-name: Faizal
-location: Tangerang, Indonesia 🇮🇩
-status: High School Student & Member Imphnen
-focus: App Development, Desktop Development 
-```
 
-<div align="center">
+<!--<div align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3ZyNHZycXN0ZG9zY2l5aWFnczZ4MGVocWppZXE2ZHRqMjJpOXl5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ALOwurQ9EwDZxQRhjO/giphy.gif" width="380">
 </div>
-
+-->
 
 
 
