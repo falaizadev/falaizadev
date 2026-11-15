@@ -6,33 +6,23 @@
      fill="none">
 
   <defs>
-    <!-- Background -->
-    <linearGradient id="background"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="100%">
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#050D1B"/>
       <stop offset="55%" stop-color="#0B1B32"/>
       <stop offset="100%" stop-color="#102944"/>
     </linearGradient>
 
-    <!-- Accent colors -->
-    <linearGradient id="cyan"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="100%">
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#75D7FF"/>
       <stop offset="100%" stop-color="#3979D8"/>
     </linearGradient>
 
-    <linearGradient id="gold"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="100%">
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFE69A"/>
       <stop offset="100%" stop-color="#E5AE4C"/>
     </linearGradient>
 
-    <linearGradient id="card"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="100%">
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#172F4B"/>
       <stop offset="100%" stop-color="#0C1B2E"/>
     </linearGradient>
@@ -58,14 +48,11 @@
     <ellipse cx="150" cy="300" rx="250" ry="160"
              fill="url(#ambient)"/>
 
-    <!-- SUBTLE GRID -->
-    <g stroke="#8BCDF3"
-       stroke-opacity=".045"
-       stroke-width="1">
+    <!-- GRID -->
+    <g stroke="#8BCDF3" stroke-opacity=".045" stroke-width="1">
       <path d="M0 80H1200"/>
       <path d="M0 160H1200"/>
       <path d="M0 240H1200"/>
-
       <path d="M100 0V310"/>
       <path d="M200 0V310"/>
       <path d="M300 0V310"/>
@@ -105,17 +92,13 @@
       Have an idea, project, or opportunity? Let's connect.
     </text>
 
-    <!-- CONNECTION STATUS -->
-    <rect x="935" y="61"
-          width="205" height="36"
+    <!-- STATUS -->
+    <rect x="935" y="61" width="205" height="36"
           rx="18"
-          fill="#69C8FF"
-          fill-opacity=".08"
-          stroke="#69C8FF"
-          stroke-opacity=".3"/>
+          fill="#69C8FF" fill-opacity=".08"
+          stroke="#69C8FF" stroke-opacity=".3"/>
 
-    <circle cx="958" cy="79" r="4"
-            fill="#72D8A3"/>
+    <circle cx="958" cy="79" r="4" fill="#72D8A3"/>
 
     <text x="972" y="83"
           fill="#C7D9EA"
@@ -126,173 +109,167 @@
       OPEN TO CONNECTIONS
     </text>
 
-    <!-- EMAIL CARD -->
-    <g font-family="Arial, Helvetica, sans-serif">
+    <!-- EMAIL CARD - CLICKABLE -->
+    <a href="mailto:falaizacodes@gmail.com"
+       target="_blank"
+       rel="noopener noreferrer">
 
-      <rect x="60" y="150"
-            width="340" height="92"
-            rx="14"
-            fill="url(#card)"
-            stroke="#69C8FF"
-            stroke-opacity=".35"/>
+      <g font-family="Arial, Helvetica, sans-serif">
 
-      <rect x="60" y="150"
-            width="4" height="92"
-            rx="2"
-            fill="url(#cyan)"/>
+        <rect x="60" y="150" width="340" height="92"
+              rx="14"
+              fill="url(#card)"
+              stroke="#69C8FF"
+              stroke-opacity=".35"/>
 
-      <circle cx="105" cy="196" r="23"
-              fill="#69C8FF"
-              fill-opacity=".12"/>
+        <rect x="60" y="150" width="4" height="92"
+              rx="2" fill="url(#cyan)"/>
 
-      <!-- Envelope icon -->
-      <rect x="94" y="188"
-            width="22" height="16"
-            rx="3"
-            stroke="#75D7FF"
-            stroke-width="1.8"/>
+        <circle cx="105" cy="196" r="23"
+                fill="#69C8FF" fill-opacity=".12"/>
 
-      <path d="M95 190L105 198L115 190"
-            stroke="#75D7FF"
-            stroke-width="1.8"
-            stroke-linecap="round"
-            stroke-linejoin="round"/>
+        <rect x="94" y="188" width="22" height="16"
+              rx="3"
+              stroke="#75D7FF" stroke-width="1.8"/>
 
-      <text x="145" y="190"
-            fill="#F4F8FF"
-            font-size="16"
-            font-weight="700">
-        Email
-      </text>
+        <path d="M95 190L105 198L115 190"
+              stroke="#75D7FF"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
 
-      <text x="145" y="213"
-            fill="#9CB5CD"
-            font-size="11">
-        Let's talk about your ideas
-      </text>
+        <text x="145" y="190"
+              fill="#F4F8FF"
+              font-size="16"
+              font-weight="700">
+          Email
+        </text>
 
-      <path d="M360 195L367 195M362 190L367 195L362 200"
-            stroke="#69C8FF"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"/>
-    </g>
+        <text x="145" y="213"
+              fill="#9CB5CD"
+              font-size="11">
+          Let's talk about your ideas
+        </text>
 
-    <!-- PORTFOLIO CARD -->
-    <g font-family="Arial, Helvetica, sans-serif">
+        <path d="M360 195H367M362 190L367 195L362 200"
+              stroke="#69C8FF"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+      </g>
+    </a>
 
-      <rect x="430" y="150"
-            width="340" height="92"
-            rx="14"
-            fill="url(#card)"
-            stroke="#F5CE72"
-            stroke-opacity=".35"/>
+    <!-- PORTFOLIO CARD - CLICKABLE -->
+    <a href="https://faizaldwiramadhan.vercel.app/"
+       target="_blank"
+       rel="noopener noreferrer">
 
-      <rect x="430" y="150"
-            width="4" height="92"
-            rx="2"
-            fill="url(#gold)"/>
+      <g font-family="Arial, Helvetica, sans-serif">
 
-      <circle cx="475" cy="196" r="23"
-              fill="#F5CE72"
-              fill-opacity=".12"/>
-
-      <!-- Globe icon -->
-      <circle cx="475" cy="196" r="12"
+        <rect x="430" y="150" width="340" height="92"
+              rx="14"
+              fill="url(#card)"
               stroke="#F5CE72"
-              stroke-width="1.7"/>
+              stroke-opacity=".35"/>
 
-      <path d="M463 196H487
-               M475 184
-               C468 190 468 202 475 208
-               M475 184
-               C482 190 482 202 475 208"
-            stroke="#F5CE72"
-            stroke-width="1.4"
-            stroke-linecap="round"/>
+        <rect x="430" y="150" width="4" height="92"
+              rx="2" fill="url(#gold)"/>
 
-      <text x="515" y="190"
-            fill="#F4F8FF"
-            font-size="16"
-            font-weight="700">
-        Portfolio
-      </text>
+        <circle cx="475" cy="196" r="23"
+                fill="#F5CE72" fill-opacity=".12"/>
 
-      <text x="515" y="213"
-            fill="#9CB5CD"
-            font-size="11">
-        Explore my work and projects
-      </text>
+        <circle cx="475" cy="196" r="12"
+                stroke="#F5CE72" stroke-width="1.7"/>
 
-      <path d="M730 195L737 195M732 190L737 195L732 200"
-            stroke="#F5CE72"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"/>
-    </g>
+        <path d="M463 196H487
+                 M475 184C468 190 468 202 475 208
+                 M475 184C482 190 482 202 475 208"
+              stroke="#F5CE72"
+              stroke-width="1.4"
+              stroke-linecap="round"/>
 
-    <!-- GITHUB CARD -->
-    <g font-family="Arial, Helvetica, sans-serif">
+        <text x="515" y="190"
+              fill="#F4F8FF"
+              font-size="16"
+              font-weight="700">
+          Portfolio
+        </text>
 
-      <rect x="800" y="150"
-            width="340" height="92"
-            rx="14"
-            fill="url(#card)"
-            stroke="#69C8FF"
-            stroke-opacity=".35"/>
+        <text x="515" y="213"
+              fill="#9CB5CD"
+              font-size="11">
+          Explore my work and projects
+        </text>
 
-      <rect x="800" y="150"
-            width="4" height="92"
-            rx="2"
-            fill="url(#cyan)"/>
+        <path d="M730 195H737M732 190L737 195L732 200"
+              stroke="#F5CE72"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+      </g>
+    </a>
 
-      <circle cx="845" cy="196" r="23"
-              fill="#69C8FF"
-              fill-opacity=".12"/>
+    <!-- GITHUB CARD - CLICKABLE -->
+    <a href="https://github.com/falaizadev"
+       target="_blank"
+       rel="noopener noreferrer">
 
-      <!-- GitHub mark -->
-      <path d="M845 184
-               C838 184 833 189 833 196
-               C833 202 837 207 843 208
-               V202
-               C840 203 838 201 837 198
-               C836 195 839 193 839 193
-               C837 189 840 188 840 188
-               C843 188 844 190 844 190
-               C847 189 850 190 850 190
-               C851 188 854 188 854 188
-               C857 192 854 194 854 194
-               C856 198 853 202 848 202
-               V208
-               C854 207 857 202 857 196
-               C857 189 852 184 845 184Z"
-            fill="#75D7FF"/>
+      <g font-family="Arial, Helvetica, sans-serif">
 
-      <text x="885" y="190"
-            fill="#F4F8FF"
-            font-size="16"
-            font-weight="700">
-        GitHub
-      </text>
+        <rect x="800" y="150" width="340" height="92"
+              rx="14"
+              fill="url(#card)"
+              stroke="#69C8FF"
+              stroke-opacity=".35"/>
 
-      <text x="885" y="213"
-            fill="#9CB5CD"
-            font-size="11">
-        Check out my repositories
-      </text>
+        <rect x="800" y="150" width="4" height="92"
+              rx="2" fill="url(#cyan)"/>
 
-      <path d="M1100 195L1107 195M1102 190L1107 195L1102 200"
-            stroke="#69C8FF"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"/>
-    </g>
+        <circle cx="845" cy="196" r="23"
+                fill="#69C8FF" fill-opacity=".12"/>
+
+        <path d="M845 184
+                 C838 184 833 189 833 196
+                 C833 202 837 207 843 208
+                 V202
+                 C840 203 838 201 837 198
+                 C836 195 839 193 839 193
+                 C837 189 840 188 840 188
+                 C843 188 844 190 844 190
+                 C847 189 850 190 850 190
+                 C851 188 854 188 854 188
+                 C857 192 854 194 854 194
+                 C856 198 853 202 848 202
+                 V208
+                 C854 207 857 202 857 196
+                 C857 189 852 184 845 184Z"
+              fill="#75D7FF"/>
+
+        <text x="885" y="190"
+              fill="#F4F8FF"
+              font-size="16"
+              font-weight="700">
+          GitHub
+        </text>
+
+        <text x="885" y="213"
+              fill="#9CB5CD"
+              font-size="11">
+          Check out my repositories
+        </text>
+
+        <path d="M1100 195H1107M1102 190L1107 195L1102 200"
+              stroke="#69C8FF"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+      </g>
+    </a>
 
     <!-- PROFILE VIEWS -->
     <g font-family="Arial, Helvetica, sans-serif">
 
-      <rect x="60" y="263"
-            width="220" height="29"
+      <rect x="60" y="263" width="220" height="29"
             rx="7"
             fill="#152B43"
             stroke="#8BBCE2"
@@ -304,10 +281,8 @@
         PROFILE VIEWS
       </text>
 
-      <rect x="208" y="263"
-            width="72" height="29"
-            rx="7"
-            fill="#3979D8"/>
+      <rect x="208" y="263" width="72" height="29"
+            rx="7" fill="#3979D8"/>
 
       <text x="244" y="282"
             fill="#FFFFFF"
@@ -338,8 +313,7 @@
     </text>
 
     <!-- BORDER -->
-    <rect x="1" y="1"
-          width="1198" height="308"
+    <rect x="1" y="1" width="1198" height="308"
           rx="22"
           stroke="#8BBCE2"
           stroke-opacity=".22"
