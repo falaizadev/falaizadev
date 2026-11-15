@@ -101,8 +101,13 @@
 
 
 
+<div align="center">
 
+<img src="https://komarev.com/ghpvc/?username=falaizadev&label=Profile%20Views&color=3b82f6&style=flat-square"/>
 
+*"Code is like humor. When you have to explain it, it's bad."*
+
+</div>
 
 <p align="center">
   <picture>
@@ -121,13 +126,3 @@
     />
   </picture>
 </p>
-
-
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=falaizadev&label=Profile%20Views&color=3b82f6&style=flat-square"/>
-
-*"Code is like humor. When you have to explain it, it's bad."*
-
-</div>
