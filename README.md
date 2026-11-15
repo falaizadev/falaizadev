@@ -89,25 +89,13 @@
 
 ### 📫 Connect
 
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:falaizacodes@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=safari&logoColor=white)](https://faizaldwiramadhan.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/falaizadev)
-
-</div>
-
----
-
-
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=falaizadev&label=Profile%20Views&color=3b82f6&style=flat-square"/>
-
-*"Code is like humor. When you have to explain it, it's bad."*
-
-</div>
+<p align="center">
+  <img
+    src="./profile-contact.svg"
+    width="100%"
+    alt="Contact - Faizal Dwi Ramadhan"
+  />
+</p>
 
 <p align="center">
   <picture>
