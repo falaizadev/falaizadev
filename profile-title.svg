@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Faizal Dwi Ramadhan</title>
-  <desc id="desc">An animated greeting from Muhamad Hafiidh, a Java and web development learner from Indonesia with one year of coding experience.</desc>
+  <desc id="desc">An animated greeting from Faizal Dwi Ramadhan, a Android and Web development learner from Indonesia with one year of coding experience.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#0b1224"/><stop offset="1" stop-color="#10172b"/>
