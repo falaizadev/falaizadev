@@ -89,6 +89,7 @@
 
 
 <!-- CONTACT DESIGN -->
+<!--
 <p align="center">
   <img
     src="./profile-contact.svg"
@@ -96,8 +97,8 @@
     alt="Contact - Faizal Dwi Ramadhan"
   />
 </p>
+-->
 
-<!-- ACTUAL CLICKABLE LINKS -->
 <p align="center">
   <a href="mailto:falaizacodes@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
