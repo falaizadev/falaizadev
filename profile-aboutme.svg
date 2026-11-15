@@ -1,0 +1,416 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="440"
+     viewBox="0 0 1200 440"
+     fill="none">
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#071426"/>
+      <stop offset="1" stop-color="#172E49"/>
+    </linearGradient>
+
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#243A42"/>
+      <stop offset="1" stop-color="#101E28"/>
+    </linearGradient>
+
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF9DF"/>
+      <stop offset="1" stop-color="#EBCB82"/>
+    </linearGradient>
+
+    <radialGradient id="moonlight">
+      <stop stop-color="#DCEAFF" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#DCEAFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="firelight">
+      <stop stop-color="#FFD477" stop-opacity=".45"/>
+      <stop offset=".45" stop-color="#FF9D42" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#FF9D42" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#142B43" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#0B1C30" stop-opacity=".93"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <filter id="fireGlow">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+
+    <clipPath id="frame">
+      <rect width="1200" height="440" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- NIGHT SKY -->
+    <rect width="1200" height="440" fill="url(#sky)"/>
+
+    <!-- Moonlight -->
+    <circle cx="1020" cy="100" r="190"
+            fill="url(#moonlight)"/>
+
+    <!-- Stars -->
+    <g fill="#DCE9F5">
+      <circle cx="70" cy="42" r="1.5"/>
+      <circle cx="150" cy="95" r="1"/>
+      <circle cx="250" cy="38" r="1.5"/>
+      <circle cx="350" cy="80" r="1"/>
+      <circle cx="440" cy="35" r="1.5"/>
+      <circle cx="570" cy="65" r="1"/>
+      <circle cx="670" cy="35" r="1.5"/>
+      <circle cx="770" cy="95" r="1"/>
+      <circle cx="880" cy="45" r="1.5"/>
+      <circle cx="1130" cy="45" r="1"/>
+      <circle cx="1160" cy="140" r="1.5"/>
+      <circle cx="920" cy="175" r="1"/>
+      <circle cx="750" cy="150" r="1"/>
+      <circle cx="500" cy="155" r="1"/>
+      <circle cx="300" cy="170" r="1"/>
+    </g>
+
+    <!-- Crescent Moon -->
+    <circle cx="1020" cy="100" r="70"
+            fill="#F5D994" opacity=".12"
+            filter="url(#glow)"/>
+
+    <path d="M1035 37
+             C1001 39 977 68 977 101
+             C977 139 1007 166 1044 162
+             C1022 148 1008 127 1008 101
+             C1008 75 1018 51 1035 37Z"
+          fill="url(#moon)"/>
+
+    <!-- Moonlight rays -->
+    <path d="M1000 172L940 285
+             M1040 173L1080 280
+             M970 160L900 245"
+          stroke="#B9D4EC"
+          stroke-width="1"
+          opacity=".10"/>
+
+    <!-- Distant hills -->
+    <path d="M0 265
+             Q140 205 260 250
+             Q400 195 540 250
+             Q700 195 840 245
+             Q1000 190 1200 250
+             V440 H0Z"
+          fill="#182E3D"/>
+
+    <!-- Village houses -->
+    <g fill="#0B1C29" stroke="#243B4A" stroke-width="2">
+
+      <!-- House 1 -->
+      <path d="M20 300L95 245L170 300V365H20Z"/>
+      <path d="M8 301L95 235L182 301L170 308L95 255L20 308Z"
+            fill="#101F2D"/>
+      <rect x="75" y="320" width="35" height="45"/>
+      <rect x="38" y="310" width="22" height="23"/>
+
+      <!-- House 2 -->
+      <path d="M180 310L255 260L330 310V370H180Z"/>
+      <path d="M168 311L255 250L342 311L330 318L255 270L180 318Z"
+            fill="#101F2D"/>
+      <rect x="230" y="325" width="30" height="45"/>
+      <rect x="280" y="312" width="20" height="22"/>
+
+      <!-- House 3 -->
+      <path d="M850 300L930 245L1010 300V375H850Z"/>
+      <path d="M838 301L930 235L1022 301L1010 310L930 255L850 310Z"
+            fill="#101F2D"/>
+      <rect x="910" y="325" width="35" height="50"/>
+      <rect x="870" y="310" width="22" height="23"/>
+
+      <!-- House 4 -->
+      <path d="M1015 310L1090 260L1165 310V380H1015Z"/>
+      <path d="M1003 311L1090 250L1177 311L1165 319L1090 270L1015 319Z"
+            fill="#101F2D"/>
+      <rect x="1075" y="330" width="30" height="50"/>
+      <rect x="1120" y="315" width="22" height="23"/>
+    </g>
+
+    <!-- Ground -->
+    <path d="M0 355
+             Q250 330 460 360
+             Q700 335 900 360
+             Q1060 340 1200 355
+             V440 H0Z"
+          fill="url(#ground)"/>
+
+    <!-- Torch light pools -->
+    <ellipse cx="400" cy="350" rx="110" ry="85"
+             fill="url(#firelight)"/>
+    <ellipse cx="760" cy="345" rx="120" ry="90"
+             fill="url(#firelight)"/>
+    <ellipse cx="1080" cy="350" rx="95" ry="75"
+             fill="url(#firelight)"/>
+
+    <!-- People silhouettes -->
+    <g fill="#081722">
+
+      <!-- Walking person -->
+      <circle cx="360" cy="285" r="10"/>
+      <path d="M350 298Q360 292 370 298L377 337L366 340L362 314L355 340L344 338Z"/>
+      <path d="M350 305L334 327L340 332L356 316Z"/>
+      <path d="M368 305L382 322L376 328L362 315Z"/>
+      <path d="M355 338L349 367L357 367L365 341Z"/>
+      <path d="M366 338L375 365L383 365L374 337Z"/>
+
+      <!-- Person carrying torch -->
+      <circle cx="420" cy="278" r="11"/>
+      <path d="M408 291Q420 285 432 291L438 337L425 340L420 310L415 340L402 337Z"/>
+      <path d="M410 298L393 279L399 274L417 291Z"/>
+      <path d="M429 298L446 276L452 281L435 309Z"/>
+      <path d="M413 338L406 370H415L421 340Z"/>
+      <path d="M427 338L436 369H445L435 337Z"/>
+
+      <!-- Person walking -->
+      <circle cx="510" cy="292" r="9"/>
+      <path d="M500 303Q510 298 520 303L526 338L515 341L510 317L506 341L494 338Z"/>
+      <path d="M502 307L488 327L494 331L507 316Z"/>
+      <path d="M519 307L535 323L529 329L514 315Z"/>
+      <path d="M503 339L498 365H506L512 341Z"/>
+      <path d="M516 339L525 364H533L525 338Z"/>
+
+      <!-- Dancing person -->
+      <circle cx="680" cy="282" r="10"/>
+      <path d="M670 295Q680 290 690 295L695 334L683 338L679 311L675 338L663 334Z"/>
+      <path d="M672 300L650 278L655 271L678 292Z"/>
+      <path d="M689 300L711 278L717 284L695 309Z"/>
+      <path d="M674 336L660 361H670L682 339Z"/>
+      <path d="M685 336L698 360H707L695 334Z"/>
+
+      <!-- Person carrying torch -->
+      <circle cx="770" cy="278" r="11"/>
+      <path d="M758 292Q770 286 782 292L788 336L775 340L770 309L766 340L753 336Z"/>
+      <path d="M761 300L745 280L751 274L770 294Z"/>
+      <path d="M779 300L795 275L802 280L785 308Z"/>
+      <path d="M764 338L758 367H767L773 340Z"/>
+      <path d="M777 338L786 367H795L785 336Z"/>
+
+      <!-- Group of villagers -->
+      <circle cx="875" cy="300" r="8"/>
+      <path d="M867 310Q875 305 883 310L888 345H862Z"/>
+      <path d="M867 342L864 365H871L876 344Z"/>
+      <path d="M880 342L887 365H894L887 342Z"/>
+
+      <circle cx="915" cy="292" r="9"/>
+      <path d="M906 303Q915 298 924 303L929 345H901Z"/>
+      <path d="M907 342L902 366H910L916 345Z"/>
+      <path d="M920 342L927 366H935L926 342Z"/>
+
+      <circle cx="960" cy="305" r="8"/>
+      <path d="M952 315Q960 310 968 315L973 347H947Z"/>
+      <path d="M953 345L950 366H957L961 347Z"/>
+      <path d="M965 345L972 366H979L971 345Z"/>
+
+      <!-- More villagers -->
+      <circle cx="565" cy="320" r="8"/>
+      <path d="M557 330Q565 325 573 330L577 355H553Z"/>
+      <circle cx="610" cy="310" r="8"/>
+      <path d="M602 320Q610 315 618 320L622 352H598Z"/>
+      <circle cx="730" cy="320" r="8"/>
+      <path d="M722 330Q730 325 738 330L742 355H718Z"/>
+    </g>
+
+    <!-- Torch sticks -->
+    <g stroke="#69452B" stroke-width="5" stroke-linecap="round">
+      <path d="M448 278L455 235"/>
+      <path d="M797 276L810 231"/>
+      <path d="M1090 300L1097 255"/>
+    </g>
+
+    <!-- Torch flames -->
+    <g>
+      <ellipse cx="455" cy="230" rx="35" ry="45"
+               fill="url(#firelight)" filter="url(#fireGlow)"/>
+      <path d="M455 248
+               C435 235 445 217 453 202
+               C455 214 468 217 466 232
+               C480 218 477 240 455 248Z"
+            fill="#FF9D42"/>
+      <path d="M455 245
+               C447 233 455 223 459 217
+               C461 228 468 235 455 245Z"
+            fill="#FFE5A0"/>
+
+      <ellipse cx="810" cy="225" rx="35" ry="45"
+               fill="url(#firelight)" filter="url(#fireGlow)"/>
+      <path d="M810 244
+               C790 230 800 213 808 197
+               C810 209 823 215 821 229
+               C835 214 832 236 810 244Z"
+            fill="#FF9D42"/>
+      <path d="M810 241
+               C802 230 810 219 814 213
+               C816 225 823 231 810 241Z"
+            fill="#FFE5A0"/>
+
+      <ellipse cx="1097" cy="249" rx="35" ry="45"
+               fill="url(#firelight)" filter="url(#fireGlow)"/>
+      <path d="M1097 268
+               C1077 254 1087 237 1095 221
+               C1097 233 1110 239 1108 253
+               C1122 238 1119 260 1097 268Z"
+            fill="#FF9D42"/>
+      <path d="M1097 265
+               C1089 254 1097 243 1101 237
+               C1103 249 1110 255 1097 265Z"
+            fill="#FFE5A0"/>
+    </g>
+
+    <!-- Village atmosphere -->
+    <g fill="#F4D9A0" opacity=".6">
+      <circle cx="455" cy="205" r="2"/>
+      <circle cx="810" cy="190" r="2"/>
+      <circle cx="1097" cy="214" r="2"/>
+    </g>
+
+    <!-- ABOUT ME CONTENT PANEL -->
+    <rect x="40" y="30" width="510" height="205"
+          rx="18" fill="url(#panel)"
+          stroke="#9ABAD4" stroke-opacity=".35"/>
+
+    <text x="68" y="65"
+          fill="#F4D47B"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="11"
+          font-weight="700"
+          letter-spacing="3">
+      GET TO KNOW ME
+    </text>
+
+    <text x="68" y="108"
+          fill="#F5F8FF"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="34"
+          font-weight="700">
+      About Me
+    </text>
+
+    <rect x="68" y="122" width="70" height="3"
+          rx="2" fill="#F4D078"/>
+
+    <text x="68" y="153"
+          fill="#FFFFFF"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="16"
+          font-weight="700">
+      Faizal Dwi Ramadhan
+    </text>
+
+    <text x="68" y="177"
+          fill="#B9D0E4"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="12">
+      Developer in progress • Indonesia
+    </text>
+
+    <text x="68" y="204"
+          fill="#D3E1EF"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="12">
+      Building ideas, exploring technology, and learning every day.
+    </text>
+
+    <!-- INFO CARDS -->
+    <g font-family="Arial, Helvetica, sans-serif">
+
+      <rect x="580" y="30" width="270" height="95"
+            rx="14" fill="url(#panel)"
+            stroke="#8BC7F0" stroke-opacity=".35"/>
+
+      <text x="602" y="59" fill="#F4D47B"
+            font-size="14" font-weight="700">
+        Development
+      </text>
+      <text x="602" y="82" fill="#D3E1EF" font-size="11">
+        Websites and applications
+      </text>
+      <text x="602" y="101" fill="#83BFE9" font-size="10">
+        CODE • CREATE • IMPROVE
+      </text>
+
+      <rect x="870" y="30" width="290" height="95"
+            rx="14" fill="url(#panel)"
+            stroke="#F4D078" stroke-opacity=".35"/>
+
+      <text x="892" y="59" fill="#F4D47B"
+            font-size="14" font-weight="700">
+        Exploration
+      </text>
+      <text x="892" y="82" fill="#D3E1EF" font-size="11">
+        Fullstack Development & AI
+      </text>
+      <text x="892" y="101" fill="#83BFE9" font-size="10">
+        FULLSTACK + AI
+      </text>
+
+      <rect x="580" y="140" width="270" height="95"
+            rx="14" fill="url(#panel)"
+            stroke="#8BC7F0" stroke-opacity=".35"/>
+
+      <text x="602" y="169" fill="#F4D47B"
+            font-size="14" font-weight="700">
+        Education
+      </text>
+      <text x="602" y="192" fill="#D3E1EF" font-size="11">
+        High School Student
+      </text>
+      <text x="602" y="211" fill="#83BFE9" font-size="10">
+        IMPHNEN MEMBER
+      </text>
+
+      <rect x="870" y="140" width="290" height="95"
+            rx="14" fill="url(#panel)"
+            stroke="#F4D078" stroke-opacity=".35"/>
+
+      <text x="892" y="169" fill="#F4D47B"
+            font-size="14" font-weight="700">
+        Current Focus
+      </text>
+      <text x="892" y="192" fill="#D3E1EF" font-size="11">
+        Preparing for LKS ITSSB
+      </text>
+      <text x="892" y="211" fill="#83BFE9" font-size="10">
+        KEEP MOVING FORWARD
+      </text>
+
+    </g>
+
+    <!-- Footer -->
+    <text x="45" y="418"
+          fill="#A9BED1"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="10"
+          font-weight="700"
+          letter-spacing="2">
+      STILL LEARNING. ALWAYS BUILDING.
+    </text>
+
+    <text x="1155" y="418"
+          fill="#F4D078"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="10"
+          text-anchor="end"
+          font-weight="700"
+          letter-spacing="2">
+      2026
+    </text>
+
+    <!-- Border -->
+    <rect x="1" y="1" width="1198" height="438"
+          rx="22" stroke="#A9C9E8"
+          stroke-opacity=".25" stroke-width="2"/>
+
+  </g>
+</svg>
