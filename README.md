@@ -58,6 +58,28 @@ focus: App Development, Desktop Development
   <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451" height="250">
   <img src="https://github.com/user-attachments/assets/42561bab-876b-45db-a3d9-216178c2c727" height="250">
 </div>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="36" height="36" alt="Animated code icon" /> My Statistics
+
+<table>
+<tr>
+<td width="57%" valign="top">
+
+<img src="https://github-stats-extended.vercel.app/api?username=falaizadev&amp;theme=chartreuse-dark&amp;show_icons=true&amp;hide_border=false&amp;border_color=6B7280&amp;border_radius=5" width="100%" alt="Faizal GitHub statistics" />
+
+<br /><br />
+
+<img src="https://streak-stats.demolab.com?user=falaizadev&amp;theme=chartreuse-dark&amp;hide_border=false&amp;border=6B7280&amp;border_radius=5" width="100%" alt="Faizal GitHub contribution streak" />
+
+</td>
+<td width="43%" valign="top">
+
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=falaizadev&amp;theme=chartreuse-dark&amp;hide_border=false&amp;border_color=6B7280&amp;border_radius=5&amp;langs_count=8&amp;card_width=320" width="100%" alt="Most used languages from Faizal's GitHub repositories" />
+
+</td>
+</tr>
+</table>
+
+<br />
 
 ### 📫 Connect
 
