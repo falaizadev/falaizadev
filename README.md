@@ -87,8 +87,8 @@
 
 <br />
 
-### 📫 Connect
 
+<!-- CONTACT DESIGN -->
 <p align="center">
   <img
     src="./profile-contact.svg"
@@ -96,6 +96,22 @@
     alt="Contact - Faizal Dwi Ramadhan"
   />
 </p>
+
+<!-- ACTUAL CLICKABLE LINKS -->
+<p align="center">
+  <a href="mailto:falaizacodes@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://faizaldwiramadhan.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-F5CE72?style=for-the-badge&logo=vercel&logoColor=black" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/falaizadev">
+    <img src="https://img.shields.io/badge/GitHub-Visit%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
 
 <p align="center">
   <picture>
