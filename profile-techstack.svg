@@ -1,0 +1,349 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="430"
+     viewBox="0 0 1200 430"
+     fill="none">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430">
+      <stop stop-color="#071426"/>
+      <stop offset=".55" stop-color="#0B1B30"/>
+      <stop offset="1" stop-color="#10243B"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#75D7FF"/>
+      <stop offset="1" stop-color="#3988D8"/>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE69A"/>
+      <stop offset="1" stop-color="#E5AE4C"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#152C47"/>
+      <stop offset="1" stop-color="#0C1B2E"/>
+    </linearGradient>
+
+    <radialGradient id="ambient">
+      <stop stop-color="#3988D8" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#3988D8" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="clip">
+      <rect width="1200" height="430" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+
+    <!-- BACKGROUND -->
+    <rect width="1200" height="430" fill="url(#bg)"/>
+
+    <ellipse cx="1000" cy="100" rx="300" ry="230"
+             fill="url(#ambient)"/>
+
+    <ellipse cx="150" cy="400" rx="250" ry="180"
+             fill="url(#ambient)"/>
+
+    <!-- GRID -->
+    <g stroke="#8BCDF3" stroke-opacity=".045" stroke-width="1">
+      <path d="M0 80H1200 M0 160H1200 M0 240H1200 M0 320H1200"/>
+      <path d="M100 0V430 M200 0V430 M300 0V430 M400 0V430
+               M500 0V430 M600 0V430 M700 0V430
+               M800 0V430 M900 0V430 M1000 0V430 M1100 0V430"/>
+    </g>
+
+    <!-- HEADER -->
+    <text x="55" y="57"
+          fill="#F5CE72"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="11"
+          font-weight="700"
+          letter-spacing="4">
+      MY DEVELOPMENT TOOLKIT
+    </text>
+
+    <text x="55" y="105"
+          fill="#F4F8FF"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="36"
+          font-weight="700"
+          letter-spacing="-1">
+      Tech Stack
+    </text>
+
+    <text x="55" y="133"
+          fill="#9CB5CD"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="13">
+      Technologies and tools I work with and continue to explore.
+    </text>
+
+    <!-- STATUS -->
+    <rect x="970" y="67" width="175" height="35"
+          rx="17.5"
+          fill="#69C8FF" fill-opacity=".08"
+          stroke="#69C8FF" stroke-opacity=".3"/>
+
+    <circle cx="991" cy="84.5" r="4"
+            fill="#72D8A3"/>
+
+    <text x="1005" y="89"
+          fill="#C7D9EA"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="10"
+          font-weight="700"
+          letter-spacing="1">
+      ALWAYS LEARNING
+    </text>
+
+    <!-- FRONTEND CARD -->
+    <g font-family="Arial, Helvetica, sans-serif">
+
+      <rect x="55" y="165" width="535" height="105"
+            rx="15" fill="url(#card)"
+            stroke="#69C8FF" stroke-opacity=".35"/>
+
+      <rect x="55" y="165" width="4" height="105"
+            rx="2" fill="url(#cyan)"/>
+
+      <text x="80" y="191"
+            fill="#69C8FF"
+            font-size="10"
+            font-weight="700"
+            letter-spacing="2">
+        01 / INTERFACE
+      </text>
+
+      <text x="80" y="222"
+            fill="#F4F8FF"
+            font-size="18"
+            font-weight="700">
+        Frontend
+      </text>
+
+      <text x="80" y="245"
+            fill="#829DB8"
+            font-size="10">
+        UI & APP DEVELOPMENT
+      </text>
+
+      <g font-size="12" font-weight="600">
+        <rect x="270" y="191" width="65" height="34" rx="8"
+              fill="#69C8FF" fill-opacity=".10"
+              stroke="#69C8FF" stroke-opacity=".25"/>
+        <text x="302.5" y="213" text-anchor="middle" fill="#BFEAFF">XML</text>
+
+        <rect x="345" y="191" width="125" height="34" rx="8"
+              fill="#69C8FF" fill-opacity=".10"
+              stroke="#69C8FF" stroke-opacity=".25"/>
+        <text x="407.5" y="213" text-anchor="middle" fill="#BFEAFF">Jetpack Compose</text>
+
+        <rect x="480" y="191" width="95" height="34" rx="8"
+              fill="#69C8FF" fill-opacity=".10"
+              stroke="#69C8FF" stroke-opacity=".25"/>
+        <text x="527.5" y="213" text-anchor="middle" fill="#BFEAFF">React Native</text>
+      </g>
+
+      <path d="M270 244H575"
+            stroke="#69C8FF" stroke-opacity=".16"/>
+    </g>
+
+    <!-- BACKEND CARD -->
+    <g font-family="Arial, Helvetica, sans-serif">
+
+      <rect x="610" y="165" width="535" height="105"
+            rx="15" fill="url(#card)"
+            stroke="#F5CE72" stroke-opacity=".35"/>
+
+      <rect x="610" y="165" width="4" height="105"
+            rx="2" fill="url(#gold)"/>
+
+      <text x="635" y="191"
+            fill="#F5CE72"
+            font-size="10"
+            font-weight="700"
+            letter-spacing="2">
+        02 / LOGIC
+      </text>
+
+      <text x="635" y="222"
+            fill="#F4F8FF"
+            font-size="18"
+            font-weight="700">
+        Backend
+      </text>
+
+      <text x="635" y="245"
+            fill="#829DB8"
+            font-size="10">
+        SERVER & APPLICATION LOGIC
+      </text>
+
+      <g font-size="12" font-weight="600">
+        <rect x="825" y="191" width="100" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="875" y="213" text-anchor="middle" fill="#FFE8AA">Spring Boot</text>
+
+        <rect x="935" y="191" width="65" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="967.5" y="213" text-anchor="middle" fill="#FFE8AA">.NET</text>
+
+        <rect x="1010" y="191" width="70" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="1045" y="213" text-anchor="middle" fill="#FFE8AA">Python</text>
+
+        <rect x="1090" y="191" width="45" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="1112.5" y="213" text-anchor="middle" fill="#FFE8AA">API</text>
+      </g>
+
+      <path d="M825 244H1135"
+            stroke="#F5CE72" stroke-opacity=".16"/>
+    </g>
+
+    <!-- DATABASE CARD -->
+    <g font-family="Arial, Helvetica, sans-serif">
+
+      <rect x="55" y="290" width="535" height="105"
+            rx="15" fill="url(#card)"
+            stroke="#69C8FF" stroke-opacity=".35"/>
+
+      <rect x="55" y="290" width="4" height="105"
+            rx="2" fill="url(#cyan)"/>
+
+      <text x="80" y="316"
+            fill="#69C8FF"
+            font-size="10"
+            font-weight="700"
+            letter-spacing="2">
+        03 / DATA
+      </text>
+
+      <text x="80" y="347"
+            fill="#F4F8FF"
+            font-size="18"
+            font-weight="700">
+        Database
+      </text>
+
+      <text x="80" y="370"
+            fill="#829DB8"
+            font-size="10">
+        DATA STORAGE & API
+      </text>
+
+      <g font-size="12" font-weight="600">
+        <rect x="270" y="316" width="85" height="34" rx="8"
+              fill="#69C8FF" fill-opacity=".10"
+              stroke="#69C8FF" stroke-opacity=".25"/>
+        <text x="312.5" y="338" text-anchor="middle" fill="#BFEAFF">MySQL</text>
+
+        <rect x="365" y="316" width="115" height="34" rx="8"
+              fill="#69C8FF" fill-opacity=".10"
+              stroke="#69C8FF" stroke-opacity=".25"/>
+        <text x="422.5" y="338" text-anchor="middle" fill="#BFEAFF">PostgreSQL</text>
+
+        <rect x="490" y="316" width="85" height="34" rx="8"
+              fill="#69C8FF" fill-opacity=".10"
+              stroke="#69C8FF" stroke-opacity=".25"/>
+        <text x="532.5" y="338" text-anchor="middle" fill="#BFEAFF">API/RES</text>
+      </g>
+
+      <path d="M270 369H575"
+            stroke="#69C8FF" stroke-opacity=".16"/>
+    </g>
+
+    <!-- TOOLS CARD -->
+    <g font-family="Arial, Helvetica, sans-serif">
+
+      <rect x="610" y="290" width="535" height="105"
+            rx="15" fill="url(#card)"
+            stroke="#F5CE72" stroke-opacity=".35"/>
+
+      <rect x="610" y="290" width="4" height="105"
+            rx="2" fill="url(#gold)"/>
+
+      <text x="635" y="316"
+            fill="#F5CE72"
+            font-size="10"
+            font-weight="700"
+            letter-spacing="2">
+        04 / WORKFLOW
+      </text>
+
+      <text x="635" y="347"
+            fill="#F4F8FF"
+            font-size="18"
+            font-weight="700">
+        Tools
+      </text>
+
+      <text x="635" y="370"
+            fill="#829DB8"
+            font-size="10">
+        DEVELOPMENT ENVIRONMENT
+      </text>
+
+      <g font-size="12" font-weight="600">
+        <rect x="825" y="316" width="55" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="852.5" y="338" text-anchor="middle" fill="#FFE8AA">Git</text>
+
+        <rect x="890" y="316" width="75" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="927.5" y="338" text-anchor="middle" fill="#FFE8AA">VS Code</text>
+
+        <rect x="975" y="316" width="75" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="1012.5" y="338" text-anchor="middle" fill="#FFE8AA">Docker</text>
+
+        <rect x="1060" y="316" width="75" height="34" rx="8"
+              fill="#F5CE72" fill-opacity=".10"
+              stroke="#F5CE72" stroke-opacity=".25"/>
+        <text x="1097.5" y="338" text-anchor="middle" fill="#FFE8AA">Figma</text>
+      </g>
+
+      <text x="825" y="377" fill="#829DB8" font-size="9">
+        + VScommunity
+      </text>
+    </g>
+
+    <!-- FOOTER -->
+    <text x="55" y="416"
+          fill="#819BB5"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="9"
+          font-weight="700"
+          letter-spacing="2">
+      BUILDING SKILLS, ONE TECHNOLOGY AT A TIME.
+    </text>
+
+    <text x="1145" y="416"
+          fill="#F5CE72"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="9"
+          font-weight="700"
+          text-anchor="end"
+          letter-spacing="2">
+      TECH STACK / 2026
+    </text>
+
+    <!-- BORDER -->
+    <rect x="1" y="1" width="1198" height="428"
+          rx="22"
+          stroke="#8BBCE2"
+          stroke-opacity=".22"
+          stroke-width="2"/>
+
+  </g>
+</svg>
