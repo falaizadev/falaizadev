@@ -103,9 +103,7 @@
 
 
 
-<div>
-  <a href="contributeGraph.svg">
-</div>
+![Pac-Man](https://raw.githubusercontent.com/falaizadev/falaizadev/pacman-output/pacman-contribution-graph-dark.svg)
 
 
 
