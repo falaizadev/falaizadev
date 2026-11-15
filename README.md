@@ -7,7 +7,7 @@
 </div>
 -->
 
----
+
 <p align="center">
   <img
     src="./profile-title.svg"
@@ -15,6 +15,8 @@
     alt="Faizal Dwi Ramadhan - Profile Banner"
   />
 </p>
+
+---
 
 ### 👋 About Me
 
