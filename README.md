@@ -58,12 +58,13 @@
 </div>
 -->
 ---
-
+<!--
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b0b0d0c1-ddd5-44c1-a5e7-a688a3fff795" height="250">
   <img src="https://github.com/user-attachments/assets/cefa2dd5-7019-4468-b5f4-ef307afe8451" height="250">
   <img src="https://github.com/user-attachments/assets/42561bab-876b-45db-a3d9-216178c2c727" height="250">
 </div>
+-->
 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="36" height="36" alt="Animated code icon" /> My Statistics
 
 <table>
